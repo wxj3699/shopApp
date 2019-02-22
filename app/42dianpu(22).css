@@ -1,0 +1,738 @@
+.alll{
+    background: rgb(251,251,251);
+}
+.zhuangtailan{
+    width: 100%;
+    height: 0.41rem;
+    /*background-image: linear-gradient(90deg,rgb(255,107,35),rgb(224,44,45));*/
+    background: pink;
+    display: block;
+    margin-right: 0.15rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+/*.xinhao{
+    width: 0.4rem;
+    height: 0.25rem;
+    font-family: iconfont;
+    float: left;
+    color: black;
+    margin-left: 0.15rem;
+    margin-top: 0.1rem;
+}
+.wifi{
+    width: 0.4rem;
+    height: 0.25rem;
+    font-family: iconfont;
+    float: left;
+    color: black;
+    margin-left: 0.01rem;
+    margin-top: 0.1rem;
+}
+.time{
+    font-size: 0.2rem;
+    padding-top: 0.1rem;
+    margin-left: 3.25rem;
+}
+.baifenbai{
+    font-size: 0.2rem;
+    margin-left: 6.5rem;
+    margin-top: -0.26rem;
+}
+.dianliang{
+    width: 0.39rem;
+    height: 0.3rem;
+    font-family: iconfont;
+    margin-left: 7.12rem;
+    position: absolute;
+    top: 0.1rem;
+}*/
+
+.jianbian{
+    width: 100%;
+    height: 3.82rem;
+    position: relative;
+    background-image: linear-gradient(90deg,rgb(255,107,35),rgb(224,44,45));
+    margin-top: -0.01rem;
+    padding-top: 1.2rem;
+}
+.zuojiantou{
+    position: absolute;
+    left: 0.15rem;
+    top: 0.68rem;
+    font-family: iconfont;
+    color: rgb(254,255,255);
+}
+.liangyuan{
+    width: 0.88rem;
+    height: 0.38rem;
+    position: absolute;
+    top: 0.65rem;
+    right: 0.25rem;
+}
+.zuoyuan{
+    width: 0.38rem;
+    height: 0.38rem;
+    background: rgb(254,255,255);
+    border-radius: 0.19rem;
+    position: relative;
+}
+.zuoyuan img{
+    width: 0.22rem;
+    height: 0.2rem;
+    position: absolute;
+    left: 0.08rem;
+    top: 0.09rem;
+}
+.youyuan{
+    width: 0.38rem;
+    height: 0.38rem;
+    background: rgb(254,255,255);
+    border-radius: 0.19rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0;
+}
+.youyuan img{
+    width: 0.22rem;
+    height: 0.22rem;
+    position: absolute;
+    left: 0.08rem;
+    top: 0.08rem;
+}
+.chengcheng{
+    width: 7.5rem;
+    height: 2.62rem;
+    margin: 0 auto;
+    position: relative;
+}
+.pisatu{
+    width: 1.72rem;
+    height: 1.72rem;
+    border-radius: 0.15rem;
+    border: 0.04rem solid rgb(255,255,255);
+    position: absolute;
+    left: 0.4rem;
+    top: 0.4rem;
+}
+.pisatu img{
+    width: 1.645rem;
+    height: 1.645rem;
+    border-radius: 0.15rem;
+}
+.xiaomingzizhi{
+    font-size: 0.26rem;
+    color: rgb(252,221,212);
+    font-weight: 600;
+    position: absolute;
+    top: 0.5rem;
+    left: 2.5rem;
+}
+.dizhiyuan{
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 0.16rem;
+    background: rgb(254,255,255);
+    position: absolute;
+    top: 0.98rem;
+    left: 2.5rem;
+}
+.dizhiyuan img {
+    width: 0.26rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 0.03rem;
+    left: 0.02rem;
+}
+.SHANXITAIYAUN{
+    font-size: 0.2rem;
+    color: rgb(252,221,212);
+    font-weight: 400;
+    position: absolute;
+    top: 0.98rem;
+    left: 3rem;
+}
+.km{
+    width: 0.92rem;
+    height: 0.33rem;
+    border-radius: 0.16rem;
+    background: rgb(248,86,40);
+    border: 0.02rem solid rgb(255,255,255);
+    position: absolute;
+    top: 1.45rem;
+    left: 2.5rem;
+}
+.kmzi{
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: rgb(252,221,212);
+    position: absolute;
+    left: 0.115rem;
+    top: 0.015rem;
+}
+.xiaodian{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: rgb(254,255,255);
+    border-radius: 0.05rem;
+    border: 0.02rem solid rgb(246,135,108);
+    position: absolute;
+    top: 1.56rem;
+    left: 3.65rem;
+}
+.silium{
+    font-size: 0.18rem;
+    color: rgb(252,221,212);
+    font-weight: 400;
+    position: absolute;
+    top: 1.5rem;
+    left: 3.72rem;
+}
+.RMB{
+    font-size: 0.18rem;
+    color: rgb(252,221,212);
+    font-weight: 400;
+    position: absolute;
+    top: 1.5rem;
+    left: 4.65rem;
+}
+.baiqisong{
+    width: 0.69rem;
+    height: 0.3rem;
+    background: rgb(255,255,255);
+    border-radius: 0.15rem;
+    position: absolute;
+    top: 1.45rem;
+    left: 5.6rem;
+    text-align: center;
+    line-height: 0.27rem;
+}
+.baiqisongzi{
+    font-size: 0.18rem;
+    color: rgb(239,108,108);
+    font-weight: 400;
+}
+.yiwujiaoxing img{
+    width: 0.17rem;
+    height: 0.17rem;
+    position: absolute;
+    top: 1.93rem;
+    left: 2.5rem;
+}
+.erwujiaoxing img{
+    width: 0.17rem;
+    height: 0.17rem;
+    position: absolute;
+    top: 1.93rem;
+    left: 2.74rem;
+}
+.sanwujiaoxing img{
+    width: 0.17rem;
+    height: 0.17rem;
+    position: absolute;
+    top: 1.93rem;
+    left: 2.98rem;
+}
+.siwujiaoxing img{
+    width: 0.17rem;
+    height: 0.17rem;
+    position: absolute;
+    top: 1.93rem;
+    left: 3.22rem;
+}
+.wuwujiaoxing img{
+    width: 0.17rem;
+    height: 0.17rem;
+    position: absolute;
+    top: 1.93rem;
+    left: 3.46rem;
+}
+.wudianling{
+    font-size: 0.18rem;
+    color: rgb(251,185,175);
+    position: absolute;
+    top: 1.88rem;
+    left: 3.8rem;
+    font-weight: 600;
+}
+
+.hei{
+    width: 100%;
+    height: 0.97rem;
+    background: rgb(32,32,42);
+    position: relative;
+}
+.juzhong{
+    width: 7.5rem;
+    height: 0.97rem;
+    margin: 0 auto;
+    display: flex;
+}
+.xiaoyuandian{
+    width: 0.14rem;
+    height: 0.14rem;
+    background: rgb(254,255,255);
+    border-radius: 0.07rem;
+    border: 0.04rem solid rgb(102,103,108);
+    margin-top: 0.42rem;
+    margin-left: 0.33rem;
+}
+.bendian{
+    font-size: 0.24rem;
+    font-weight: 600;
+    color: rgb(223,223,223);
+    margin-top: 0.36rem;
+    margin-left: 0.3rem;
+}
+
+.bai{
+    width: 100%;
+    height: 1.1rem;
+    position: relative;
+    padding-top: 0.22rem;
+    background: rgb(251,251,251);
+}
+.hui{
+    width: 3.18rem;
+    height: 0.55rem;
+    background: rgb(244,244,244);
+    border-radius: 0.27rem;
+    border: 0.02rem solid rgb(183,183,183);
+    margin: auto;
+}
+.hong{
+    width: 1.61rem;
+    height: 0.47rem;
+    background: rgb(236,48,46);
+    border-radius: 0.23rem;
+    border: 0.02rem solid rgb(255,255,255);
+    margin: 0.025rem 0.025rem;
+    display: flex;
+    text-align: center;
+}
+.zuohei{
+    width: 0.09rem;
+    height: 0.09rem;
+    border-radius: 0.045rem;
+    background: rgb(33,33,41);
+    border: 0.03rem solid rgb(238,79,75);
+    margin: 0.19rem 0 0.19rem 0.11rem;
+}
+.youhei{
+    width: 0.09rem;
+    height: 0.09rem;
+    border-radius: 0.045rem;
+    background: rgb(33,33,41);
+    border: 0.03rem solid rgb(238,79,75);
+    margin: 0.19rem 0 0.19rem 1.14rem;
+}
+.dingcan{
+    font-size: 0.26rem;
+    color: rgb(252,224,225);
+    font-weight: 400;
+    margin: 0.04rem -0.9rem;
+}
+.pingjia{
+    font-size: 0.26rem;
+    color: rgb(84,84,84);
+    font-weight: 400;
+    margin: -0.44rem 0 0 2.1rem;
+}
+
+.zhong{
+    width: 7.5rem;
+    height: 7.91rem;
+    position: relative;
+    margin: 0 auto;
+}
+.heizuo{
+    width: 2.02rem;
+    height: 7.91rem;
+    background: black;
+    position: relative;
+}
+.remai{
+    width: 1.43rem;
+    height: 0.57rem;
+    background: rgb(0,0,0);
+    border-radius: 0.28rem;
+    border: 0.02rem solid rgb(236,48,46);
+    position: absolute;
+    left: 0.29rem;
+    top: 0.5rem;
+    text-align: center;
+    line-height: 0.57rem;
+}
+.remaizi{
+    font-size: 0.24rem;
+    color: rgb(189,38,38);
+    font-weight: 600;
+}
+.xinpin{
+    width: 1.43rem;
+    height: 0.57rem;
+    background: rgb(236,48,46);
+    border-radius: 0.28rem;
+    border: 0.02rem solid rgb(236,48,46);
+    position: absolute;
+    left: 0.29rem;
+    top: 1.3rem;
+    text-align: center;
+    line-height: 0.57rem;
+}
+.xinpinzi{
+    font-size: 0.24rem;
+    color: rgb(251,215,216);
+    font-weight: 600;
+}
+.taocan{
+    width: 1.43rem;
+    height: 0.57rem;
+    background: rgb(0,0,0);
+    border-radius: 0.28rem;
+    border: 0.02rem solid rgb(236,48,46);
+    position: absolute;
+    left: 0.29rem;
+    top: 2.1rem;
+    text-align: center;
+    line-height: 0.57rem;
+}
+.taocanzi{
+    font-size: 0.24rem;
+    color: rgb(189,38,38);
+    font-weight: 600;
+}
+.danpin{
+    width: 1.43rem;
+    height: 0.57rem;
+    background: rgb(0,0,0);
+    border-radius: 0.28rem;
+    border: 0.02rem solid rgb(236,48,46);
+    position: absolute;
+    left: 0.29rem;
+    top: 2.9rem;
+    text-align: center;
+    line-height: 0.57rem;
+}
+.danpinzi{
+    font-size: 0.24rem;
+    color: rgb(189,38,38);
+    font-weight: 600;
+}
+.tese{
+    width: 1.43rem;
+    height: 0.57rem;
+    background: rgb(0,0,0);
+    border-radius: 0.28rem;
+    border: 0.02rem solid rgb(236,48,46);
+    position: absolute;
+    left: 0.29rem;
+    top: 3.7rem;
+    text-align: center;
+    line-height: 0.57rem;
+}
+.tesezi{
+    font-size: 0.24rem;
+    color: rgb(189,38,38);
+    font-weight: 600;
+}
+.sushi{
+    width: 1.43rem;
+    height: 0.57rem;
+    background: rgb(0,0,0);
+    border-radius: 0.28rem;
+    border: 0.02rem solid rgb(236,48,46);
+    position: absolute;
+    left: 0.29rem;
+    top: 4.5rem;
+    text-align: center;
+    line-height: 0.57rem;
+}
+.sushizi{
+    font-size: 0.24rem;
+    color: rgb(189,38,38);
+    font-weight: 600;
+}
+.roushi{
+    width: 1.43rem;
+    height: 0.57rem;
+    background: rgb(0,0,0);
+    border-radius: 0.28rem;
+    border: 0.02rem solid rgb(236,48,46);
+    position: absolute;
+    left: 0.29rem;
+    top: 5.3rem;
+    text-align: center;
+    line-height: 0.57rem;
+}
+.roushizi{
+    font-size: 0.24rem;
+    color: rgb(189,38,38);
+    font-weight: 600;
+}
+.haixian{
+    width: 1.43rem;
+    height: 0.57rem;
+    background: rgb(0,0,0);
+    border-radius: 0.28rem;
+    border: 0.02rem solid rgb(236,48,46);
+    position: absolute;
+    left: 0.29rem;
+    top: 6.1rem;
+    text-align: center;
+    line-height: 0.57rem;
+}
+.haixianzi{
+    font-size: 0.24rem;
+    color: rgb(189,38,38);
+    font-weight: 600;
+}
+.yinpin{
+    width: 1.43rem;
+    height: 0.57rem;
+    background: rgb(0,0,0);
+    border-radius: 0.28rem;
+    border: 0.02rem solid rgb(236,48,46);
+    position: absolute;
+    left: 0.29rem;
+    top: 6.9rem;
+    text-align: center;
+    line-height: 0.57rem;
+}
+.yinpinzi{
+    font-size: 0.24rem;
+    color: rgb(189,38,38);
+    font-weight: 600;
+}
+.huiyou{
+    width: 5.48rem;
+    height: 7.91rem;
+    background: rgb(232,232,232);
+    position: absolute;
+    left: 2.02rem;
+    top: 0;
+}
+.cake{
+    width: 5.05rem;
+    height: 1.59rem;
+    background: rgb(255,255,255);
+    border-radius: 0.2rem;
+    border: 0.01rem solid rgb(212,212,212);
+    box-shadow: 0 0.09rem 0.07rem 0 rgb(208,208,208);
+    position: absolute;
+    left: 0.23rem;
+    top: 0.27rem;
+}
+.cakeyuan{
+    width: 1.14rem;
+    height: 1.14rem;
+    border-radius: 0.57rem;
+    box-shadow: 0 0.11rem 0.16rem 0 rgb(211,211,211);
+    position: absolute;
+    left: 0.16rem;
+    top: 0.19rem;
+}
+.cakeyuan img{
+    width: 1.14rem;
+    height: 1.14rem;
+    border-radius: 0.57rem;
+}
+.cakezi{
+    font-size: 0.26rem;
+    color: rgb(88,88,88);
+    font-weight: 600;
+    position: absolute;
+    top: 0.16rem;
+    left: 1.45rem;
+}
+.hongwujiao{
+    width: 1.05rem;
+    height: 0.17rem;
+    position: absolute;
+    left: 1.45rem;
+    top: 0.6rem;
+    display: flex;
+}
+.hongwujiao img{
+    width: 0.17rem;
+    height: 0.17rem;
+    margin-right: 0.05rem;
+}
+.shiyuan{
+    font-size: 0.22rem;
+    color: rgb(236,49,46);
+    position: absolute;
+    top: 0.85rem;
+    left: 1.45rem;
+    font-weight: 600;
+}
+.hongyuan{
+    width: 0.09rem;
+    height: 0.09rem;
+    background: rgb(234,50,42);
+    border-radius: 0.045rem;
+    border: 0.03rem solid rgb(244,158,157);
+    position: absolute;
+    top: 1.26rem;
+    left: 1.45rem;
+}
+.shuzi{
+    font-size: 0.18rem;
+    color: rgb(183,183,183);
+    font-weight: bold;
+    position: absolute;
+    left: 1.67rem;
+    top: 1.17rem;
+}
+.jianhaoyuan{
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 0.16rem;
+    background: rgb(234,50,42);
+    border: 0.03rem solid rgb(244,158,157);
+    position: absolute;
+    left: 3.83rem;
+    top: 0.6rem;
+    text-align: center;
+    line-height: 0.21rem;
+}
+.jianhao{
+    font-size: 0.3rem;
+    color: rgb(254,254,255);
+}
+.shuzier{
+    font-size: 0.25rem;
+    color: rgb(88,88,88);
+    font-weight: 600;
+    position: absolute;
+    left: 4.25rem;
+    top: 0.57rem;
+}
+.jiahaoyuan{
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 0.16rem;
+    background: rgb(234,50,42);
+    border: 0.03rem solid rgb(244,158,157);
+    position: absolute;
+    left: 4.52rem;
+    top: 0.59rem;
+    text-align: center;
+    line-height: 0.25rem;
+}
+.jiahao{
+    font-size: 0.3rem;
+    color: rgb(254,254,255);
+}
+.cake2{
+    width: 5.05rem;
+    height: 1.59rem;
+    background: rgb(255,255,255);
+    border-radius: 0.2rem;
+    border: 0.01rem solid rgb(212,212,212);
+    box-shadow: 0 0.09rem 0.07rem 0 rgb(208,208,208);
+    position: absolute;
+    left: 0.23rem;
+    top: 2.06rem;
+}
+.cake3{
+    width: 5.05rem;
+    height: 1.59rem;
+    background: rgb(255,255,255);
+    border-radius: 0.2rem;
+    border: 0.01rem solid rgb(212,212,212);
+    box-shadow: 0 0.09rem 0.07rem 0 rgb(208,208,208);
+    position: absolute;
+    left: 0.23rem;
+    top: 3.86rem;
+}
+.cake4{
+    width: 5.05rem;
+    height: 1.59rem;
+    background: rgb(255,255,255);
+    border-radius: 0.2rem;
+    border: 0.01rem solid rgb(212,212,212);
+    box-shadow: 0 0.09rem 0.07rem 0 rgb(208,208,208);
+    position: absolute;
+    left: 0.23rem;
+    top: 5.7rem;
+    margin-bottom: 1.61rem;
+}
+
+.xia{
+    width: 100%;
+    height: 0.98rem;
+    background: rgb(251,251,251);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.xiazhong{
+    width: 7.5rem;
+    height: 0.98rem;
+    margin: 0 auto;
+    padding-top: 0.14rem;
+    display: flex;
+}
+.gwcyuan{
+    width: 0.7rem;
+    height: 0.7rem;
+    /*background: rgb(251,95,38);*/
+    background-image: linear-gradient(0deg,rgb(235,45,45),rgb(251,95,38));
+    border-radius: 0.35rem;
+    margin-left: 0.28rem;
+    position: absolute;
+}
+.gwcyuan img{
+    width: 0.39rem;
+    height: 0.36rem;
+    margin-left: 0.15rem;
+    margin-top: 0.19rem;
+}
+.hongyuan2{
+    width: 0.09rem;
+    height: 0.09rem;
+    background: rgb(234,50,42);
+    border-radius: 0.045rem;
+    border: 0.03rem solid rgb(244,158,157);
+    margin-left: 1.2rem;
+    margin-top: 0.2rem;
+}
+.lingxu{
+    font-size: 0.19rem;
+    color: rgb(102,102,102);
+    margin-left: -1rem;
+    margin-top: 0.38rem;
+    font-weight: 500;
+}
+.qudiancan{
+    width: 1.35rem;
+    height: 0.5rem;
+    background-image: linear-gradient(90deg,rgb(235,45,45),rgb(251,95,38));
+    border-radius: 0.27rem;
+    margin-left: 3.3rem;
+    margin-top: 0.11rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.qudiancanzi{
+    font-size: 0.24rem;
+    color: rgb(226,226,226);
+    font-weight: 500;
+}
+.ershi{
+    font-size: 0.22rem;
+    color: rgb(239,99,97);
+    font-weight: 600;
+    margin-left: 0.17rem;
+    margin-top: 0.05rem;
+}
+.ershiRMB{
+    font-size: 0.18rem;
+    color: rgb(52,52,52);
+    font-weight: 500;
+    margin-left: 0.05rem;
+    margin-top: 0.1rem;
+}

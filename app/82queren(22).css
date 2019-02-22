@@ -1,0 +1,309 @@
+.zhuangtailan{
+    width: 100%;
+    height: 0.4rem;
+    display: block;
+    margin-right: 0.15rem;
+    position: relative;
+    /*background-image: linear-gradient(90deg,rgb(255,107,35),rgb(224,44,45));*/
+    background: pink;
+}
+/*.xinhao{
+    width: 0.4rem;
+    height: 0.25rem;
+    font-family: iconfont;
+    float: left;
+    color: black;
+    margin-left: 0.15rem;
+    margin-top: 0.1rem;
+}
+.wifi{
+    width: 0.4rem;
+    height: 0.25rem;
+    font-family: iconfont;
+    float: left;
+    color: black;
+    margin-left: 0.01rem;
+    margin-top: 0.1rem;
+}
+.time{
+    font-size: 0.2rem;
+    padding-top: 0.1rem;
+    margin-left: 3.25rem;
+}
+.baifenbai{
+    font-size: 0.2rem;
+    margin-left: 6.5rem;
+    margin-top: -0.26rem;
+}
+.dianliang{
+    width: 0.39rem;
+    height: 0.3rem;
+    font-family: iconfont;
+    margin-left: 7.12rem;
+    position: absolute;
+    top: 0.1rem;
+}*/
+
+.jianbiankuang{
+    width: 100%;
+    height: 5.7rem;
+    background-image: linear-gradient(90deg,rgb(255,107,35),rgb(224,44,45));
+    /*margin-top: 0.4rem;*/
+    padding-top: 0.19rem;
+}
+.zuojiantoubai img{
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.65rem;
+}
+.dingdanpeisong{
+    font-family: 微软雅黑;
+    font-size: 0.26rem;
+    color: rgb(255,255,255);
+    position: absolute;
+    left: 0.28rem;
+    top: 1.54rem;
+}
+.gongsi{
+    width: 0.7rem;
+    height: 0.25rem;
+    border-radius: 0.125rem;
+    border: 0.01rem solid rgb(255,255,255);
+    position: absolute;
+    left: 1.73rem;
+    top: 1.57rem;
+    text-align: center;
+    line-height: 0.25rem;
+}
+.gongsizi{
+    font-family: 微软雅黑;
+    font-size: 0.18rem;
+    color: rgb(255,255,255);
+}
+.kaitong{
+    font-family: 微软雅黑;
+    font-size: 0.38rem;
+    color: rgb(255,255,255);
+    font-weight: 600;
+    position: absolute;
+    left: 0.29rem;
+    top: 1.96rem;
+}
+.xiannv{
+    font-family: 微软雅黑;
+    font-size: 0.27rem;
+    color: rgb(255,255,255);
+    position: absolute;
+    left: 0.28rem;
+    top: 2.52rem;
+}
+
+.baiwai{
+    width: 100%;
+    height: 1.95rem;
+    margin-top: 2.65rem;
+}
+.shangbai{
+    width: 7.02rem;
+    height: 1.95rem;
+    background: rgb(255,255,255);
+    border-radius: 0.2rem;
+    margin: auto;
+    padding-top: 0.12rem;
+}
+.songda{
+    font-family: 微软雅黑;
+    font-size: 0.29rem;
+    color: rgb(1,1,1);
+    margin-left: 0.24rem;
+    margin-top: 0.06rem;
+}
+.zhunshida{
+    font-family: 微软雅黑;
+    font-size: 0.22rem;
+    color: rgb(243,118,16);
+    margin-left: 0.24rem;
+    margin-top: 0.1rem;
+}
+.jinkuai{
+    font-family: 微软雅黑;
+    font-size: 0.26rem;
+    color: rgb(243,118,16);
+    margin-left: 4.2rem;
+    margin-top: -0.45rem;
+}
+.zhifuway{
+    font-family: 微软雅黑;
+    font-size: 0.29rem;
+    color: rgb(1,1,1);
+    margin-left: 0.24rem;
+    margin-top: 0.48rem;
+}
+.zhifuwaycheng{
+    font-family: 微软雅黑;
+    font-size: 0.26rem;
+    color: rgb(243,118,16);
+    margin-left: 5.5rem;
+    margin-top: -0.38rem;
+}
+.dianhehe{
+    width: 6.45rem;
+    height: 0.03rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.24rem;
+    margin-top: -0.5rem;
+}
+.huidiandian{
+    width: 0.03rem;
+    height: 0.03rem;
+    border-radius: 0.015rem;
+    background: rgb(218,218,218);
+}
+.huidiandian1{
+    width: 0.03rem;
+    height: 0.03rem;
+    border-radius: 0.015rem;
+    background: rgb(28,27,27);
+}
+.huidiandian2{
+    width: 0.03rem;
+    height: 0.03rem;
+    border-radius: 0.015rem;
+    background: rgb(28,27,27);
+}
+
+.beijing{
+    width: 100%;
+    margin-top: -0.53rem;
+}
+.xiabaikuang{
+    width: 7.02rem;
+    height: 7.56rem;
+    background: rgb(255,255,255);
+    border-radius: 0.2rem;
+    box-shadow: 0 0.03rem 0.16rem 0 rgb(209,202,202);
+    position: relative;
+    margin: 0 auto 0;
+}
+.eniang{
+    font-family: 微软雅黑;
+    font-size: 0.29rem;
+    color: rgb(87,87,87);
+    position: absolute;
+    left: 2.51rem;
+    top: 0.33rem;
+}
+.cha{
+    font-family: 微软雅黑;
+    font-size: 0.2rem;
+    color: rgb(92,92,92);
+    position: absolute;
+    left: 6.68rem;
+    top: 0.19rem;
+}
+.dianhehe2{
+    width: 6.45rem;
+    height: 0.03rem;
+    position: absolute;
+    left: 0.24rem;
+    top: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+}
+.zhye img{
+    width: 0.75rem;
+    height: 0.75rem;
+    position: absolute;
+    left: 0.26rem;
+    top: 1.23rem;
+}
+.zfb img{
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 0.375rem;
+    position: absolute;
+    left: 0.26rem;
+    top: 2.49rem;
+    box-shadow: 0 0.04rem 0.1rem 0 rgba(112,197,238,0.77);
+}
+.wxzf img{
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 0.375rem;
+    position: absolute;
+    left: 0.26rem;
+    top: 3.75rem;
+    box-shadow: 0 0.04rem 0.1rem 0 rgba(158,194,130,0.77);
+}
+.yhkzf{
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 0.375rem;
+    background-image: linear-gradient(0deg,rgb(250,184,72),rgb(249,212,80));
+    box-shadow: 0 0.04rem 0.1rem 0 rgba(249,212,80,0.77);
+    position: absolute;
+    left: 0.26rem;
+    top: 5.01rem;
+}
+.yhkzf img{
+    width: 0.45rem;
+    height: 0.45rem;
+    position: absolute;
+    left: 0.15rem;
+    top: 0.15rem;
+}
+.dsfzf{
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 0.375rem;
+    background-image: linear-gradient(0deg,rgb(97,204,162),rgb(126,247,206));
+    box-shadow: 0 0.04rem 0.1rem 0 rgba(115,245,197,0.77);
+    position: absolute;
+    left: 0.26rem;
+    top: 6.27rem;
+}
+.dsfzf img{
+    width: 0.45rem;
+    height: 0.45rem;
+    position: absolute;
+    left: 0.14rem;
+    top: 0.13rem;
+}
+.zhyezi{
+    font-size: 0.24rem;
+    position: absolute;
+    left: 1.27rem;
+    top: 1.43rem;
+    color: rgb(151,151,151);
+}
+.zfbzi{
+    font-size: 0.24rem;
+    position: absolute;
+    left: 1.27rem;
+    top: 2.73rem;
+    color: rgb(151,151,151);
+}
+.wxzfzi{
+    font-size: 0.24rem;
+    position: absolute;
+    left: 1.27rem;
+    top: 3.99rem;
+    color: rgb(151,151,151);
+}
+.yhkzfzi{
+    font-size: 0.24rem;
+    position: absolute;
+    left: 1.27rem;
+    top: 5.25rem;
+    color: rgb(151,151,151);
+}
+.dsfzfzi{
+    font-size: 0.24rem;
+    position: absolute;
+    left: 1.27rem;
+    top: 6.51rem;
+    color: rgb(151,151,151);
+}

@@ -1,0 +1,178 @@
+.zhuangtailan{
+    width: 100%;
+    height: 0.4rem;
+    /*background-image: linear-gradient(90deg,rgb(255,107,35),rgb(224,44,45));*/
+    background: pink;
+    display: block;
+    margin-right: 0.15rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+/*.xinhao{
+    width: 0.4rem;
+    height: 0.25rem;
+    font-family: iconfont;
+    float: left;
+    color: black;
+    margin-left: 0.15rem;
+    margin-top: 0.1rem;
+}
+.wifi{
+    width: 0.4rem;
+    height: 0.25rem;
+    font-family: iconfont;
+    float: left;
+    color: black;
+    margin-left: 0.01rem;
+    margin-top: 0.1rem;
+}
+.time{
+    font-size: 0.2rem;
+    padding-top: 0.1rem;
+    margin-left: 3.25rem;
+}
+.baifenbai{
+    font-size: 0.2rem;
+    margin-left: 6.5rem;
+    margin-top: -0.26rem;
+}
+.dianliang{
+    width: 0.39rem;
+    height: 0.3rem;
+    font-family: iconfont;
+    margin-left: 7.12rem;
+    position: absolute;
+    top: 0.1rem;
+}*/
+
+.zuojian img{
+    width: 0.35rem;
+    height: 0.35rem;
+    position: absolute;
+    left: 0.27rem;
+    top: 0.65rem;
+}
+.qietu img{
+    width: 4.88rem;
+    height: 5.13rem;
+    position: relative;
+    margin: 1.5rem auto 0;
+}
+
+.gongxi{
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: rgb(101,101,101);
+    position: relative;
+    margin: 0.25rem auto 0;
+    text-align: center;
+}
+.benci{
+    font-size: 0.32rem;
+    font-weight: 500;
+    color: rgb(211,211,211);
+    position: relative;
+    margin: 0.05rem auto 0;
+    text-align: center;
+}
+.yuandianhe{
+    width: 0.54rem;
+    height: 0.12rem;
+    position: absolute;
+    left: 1.79rem;
+    top: 7.22rem;
+    display: flex;
+    justify-content: space-between;
+}
+.diyiyuandian{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 0.06rem;
+    background: rgb(251,232,213);
+}
+.dieryuandian{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 0.06rem;
+    background: rgb(244,186,129);
+}
+.disanyuandian{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 0.06rem;
+    background: rgb(237,140,45);
+}
+.yuandianhe2{
+    width: 0.54rem;
+    height: 0.12rem;
+    position: absolute;
+    right: 1.79rem;
+    top: 7.22rem;
+    display: flex;
+    justify-content: space-between;
+}
+.diyiyuandian2{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 0.06rem;
+    background: rgb(237,140,45);
+}
+.dieryuandian2{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 0.06rem;
+    background: rgb(244,186,129);
+}
+.disanyuandian2{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 0.06rem;
+    background: rgb(251,232,213);
+}
+.changhuitiao{
+    width: 6.35rem;
+    height: 0.05rem;
+    background: rgb(241,241,241);
+    position: relative;
+    margin: 0.5rem auto 0;
+}
+.xiahe{
+    width: 100%;
+    height: 3.29rem;
+    position: absolute;
+    top: 10.06rem;
+}
+.fanhui{
+    width: 3.13rem;
+    height: 1.17rem;
+    border-radius: 0.585rem;
+    background-image: linear-gradient(90deg,rgb(253,109,46),rgb(238,58,52));
+    position: relative;
+    margin: -0.5rem auto 0;
+    text-align: center;
+    line-height: 1.17rem;
+    box-shadow: 0 0.13rem 0.35rem 0 rgb(253,209,198);
+}
+.fanhuishouye{
+    font-size: 0.44rem;
+    font-weight: 500;
+    color: rgb(255,251,251);
+}
+.jixu{
+    width: 3.13rem;
+    height: 1.17rem;
+    border-radius: 0.585rem;
+    background-image: linear-gradient(90deg,rgb(247,207,49),rgb(255,170,47));
+    position: relative;
+    margin: 0.5rem auto 0;
+    text-align: center;
+    line-height: 1.17rem;
+    box-shadow: 0 0.13rem 0.35rem 0 rgb(253,209,198);
+}
+.jixuguangguang{
+    font-size: 0.44rem;
+    font-weight: 500;
+    color: rgb(255,251,251);
+}
